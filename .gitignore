@@ -1,0 +1,10 @@
+_pycache_
+*.pyc
+*.log
+*.tmp
+.env
+venv/
+*.ipynb_checkpoints
+*.csv
+data/
+node_modules

@@ -1,0 +1,534 @@
+[
+    {
+        "id": "1775345530.059332",
+        "timestamp": "2026-04-05T05:02:10.059332",
+        "type": "brain_tumor",
+        "prediction": "No Tumor",
+        "confidence": 0.8015,
+        "report": {
+            "diagnosis": "No significant malignant indicators detected (80.2% negative predictive confidence).",
+            "localization": "Normal structural characteristics across all reviewed lobes.",
+            "stage": "N/A",
+            "summary": "\u2022 Prediction: No Tumor\n\u2022 Confidence Score: 80.2%\n\nThe MRI reveals no apparent localized mass, edema, or structural anomaly typically associated with neoplastic growth. The brain tissue appears healthy and within normal boundaries.",
+            "precautions": "Ongoing observation. Discontinue immediate oncological alert statuses. Maintain a healthy lifestyle.",
+            "future_steps": "Standard follow-up in 12 months unless symptomatic. No immediate medical intervention is required.",
+            "hospital_recommendations": "No specific cancer hospitals required. For general checkups, you may visit any top-tier general hospital.",
+            "doctor_recommendations": "Standard consultation with your primary care physician or a general neurologist for routine evaluation."
+        },
+        "files": [
+            "uploads/no_tumour.jpg"
+        ],
+        "additional_data": {
+            "ml_results": [
+                {
+                    "prediction": "No Tumor",
+                    "confidence": 0.8015,
+                    "heatmap_url": "/static/heatmap_no_tumour.jpg",
+                    "original_image_url": "/uploads/no_tumour.jpg",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1034
+                    }
+                }
+            ],
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775345359.794919",
+        "timestamp": "2026-04-05T04:59:19.794919",
+        "type": "brain_tumor",
+        "prediction": "Meningioma",
+        "confidence": 0.7833,
+        "report": {
+            "diagnosis": "Primary indication of Meningioma with 78.3% confidence. The model highlights specific functional boundaries with high density.",
+            "localization": "Abnormal hyperintensity suggestive of a mass lesion in the affected lobe region as visualized on the Grad-CAM++ overlay.",
+            "stage": "Observation suggests characteristics of a concerning lesion, requiring histopathological confirmation.",
+            "summary": "\u2022 Prediction: Meningioma\n\u2022 Confidence Score: 78.3%\n\nImaging reveals a mass consistent with the predicted Meningioma. Mass effect and localized edema dynamics are reflected in the generated radiomics analysis. This represents a complex case requiring immediate specialist intervention.",
+            "precautions": "Recommended tight monitoring for increased intracranial pressure. Immediate consultation with neuro-oncology required. Avoid strenuous activities.",
+            "future_steps": "Recommend structural MRI with gadolinium contrast for refined visualization and biopsy planning.",
+            "hospital_recommendations": "1. NIMHANS\n2. All India Institute of Medical Sciences (AIIMS)\n3. Christian Medical College (CMC)",
+            "doctor_recommendations": "1. Dr. B. K. Misra (Neurosurgeon)\n2. Dr. Rana Patir\n3. Dr. Rakesh Jalali (Neuro-oncologist)"
+        },
+        "files": [
+            "uploads/Screenshot 2026-03-27 213114.png"
+        ],
+        "additional_data": {
+            "ml_results": [
+                {
+                    "prediction": "Meningioma",
+                    "confidence": 0.7833,
+                    "heatmap_url": "/static/heatmap_Screenshot 2026-03-27 213114.png",
+                    "original_image_url": "/uploads/Screenshot 2026-03-27 213114.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1120
+                    }
+                }
+            ],
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775345308.94599",
+        "timestamp": "2026-04-05T04:58:28.945990",
+        "type": "brain_tumor",
+        "prediction": "Pituitary",
+        "confidence": 0.8988,
+        "report": {
+            "diagnosis": "Primary indication of Pituitary with 89.9% confidence. The model highlights specific functional boundaries with high density.",
+            "localization": "Abnormal hyperintensity suggestive of a mass lesion in the affected lobe region as visualized on the Grad-CAM++ overlay.",
+            "stage": "Observation suggests characteristics of a concerning lesion, requiring histopathological confirmation.",
+            "summary": "\u2022 Prediction: Pituitary\n\u2022 Confidence Score: 89.9%\n\nImaging reveals a mass consistent with the predicted Pituitary. Mass effect and localized edema dynamics are reflected in the generated radiomics analysis. This represents a complex case requiring immediate specialist intervention.",
+            "precautions": "Recommended tight monitoring for increased intracranial pressure. Immediate consultation with neuro-oncology required. Avoid strenuous activities.",
+            "future_steps": "Recommend structural MRI with gadolinium contrast for refined visualization and biopsy planning.",
+            "hospital_recommendations": "1. Tata Memorial Hospital\n2. NIMHANS\n3. Apollo Cancer Centre",
+            "doctor_recommendations": "1. Dr. Rakesh Jalali (Neuro-oncologist)\n2. Dr. B. K. Misra (Neurosurgeon)\n3. Dr. Rana Patir"
+        },
+        "files": [
+            "uploads/Screenshot 2026-03-27 212934.png"
+        ],
+        "additional_data": {
+            "ml_results": [
+                {
+                    "prediction": "Pituitary",
+                    "confidence": 0.8988,
+                    "heatmap_url": "/static/heatmap_Screenshot 2026-03-27 212934.png",
+                    "original_image_url": "/uploads/Screenshot 2026-03-27 212934.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1162
+                    }
+                }
+            ],
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775345279.829579",
+        "timestamp": "2026-04-05T04:57:59.829579",
+        "type": "brain_tumor",
+        "prediction": "No Tumor",
+        "confidence": 0.8317,
+        "report": {
+            "diagnosis": "No significant malignant indicators detected (83.2% negative predictive confidence).",
+            "localization": "Normal structural characteristics across all reviewed lobes.",
+            "stage": "N/A",
+            "summary": "\u2022 Prediction: No Tumor\n\u2022 Confidence Score: 83.2%\n\nThe MRI reveals no apparent localized mass, edema, or structural anomaly typically associated with neoplastic growth. The brain tissue appears healthy and within normal boundaries.",
+            "precautions": "Ongoing observation. Discontinue immediate oncological alert statuses. Maintain a healthy lifestyle.",
+            "future_steps": "Standard follow-up in 12 months unless symptomatic. No immediate medical intervention is required.",
+            "hospital_recommendations": "No specific cancer hospitals required. For general checkups, you may visit any top-tier general hospital.",
+            "doctor_recommendations": "Standard consultation with your primary care physician or a general neurologist for routine evaluation."
+        },
+        "files": [
+            "uploads/Mehak_pic.png"
+        ],
+        "additional_data": {
+            "ml_results": [
+                {
+                    "prediction": "No Tumor",
+                    "confidence": 0.8317,
+                    "heatmap_url": "/static/heatmap_Mehak_pic.png",
+                    "original_image_url": "/uploads/Mehak_pic.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1090
+                    }
+                }
+            ],
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775312262.019051",
+        "timestamp": "2026-04-04T19:47:42.019051",
+        "type": "breast_cancer",
+        "prediction": "Benign",
+        "confidence": 0.6759,
+        "report": {
+            "diagnosis": "Low likelihood of malignancy. The analysis indicates Benign characteristics.",
+            "localization": "Mammographic density appears within normal limits with no distinct malignant calcifications.",
+            "stage": "N/A - Benign",
+            "summary": "\u2022 Prediction: Benign\n\u2022 Confidence Score: 67.6%\n\nThe analyzed mammogram reveals typical architecture. The model highlights no specific functional boundaries showing malignant high density. Standard screening protocols should be maintained.",
+            "precautions": "Maintain regular annual mammogram screenings. Report any newly discovered physical changes to your physician.",
+            "future_steps": "Standard follow-up in 1-2 years based on age guidelines. No immediate medical intervention is required.",
+            "hospital_recommendations": "No specific oncology center required. Can utilize standard imaging centers for routine checkups.",
+            "doctor_recommendations": "Standard consultation with your primary care physician or gynecologist."
+        },
+        "files": [
+            "uploads/Screenshot 2026-04-04 183729.png"
+        ],
+        "additional_data": {
+            "mammogram": {
+                "prediction": "Benign",
+                "confidence": 0.6759,
+                "heatmap_url": "/static/mammo_heatmap_Screenshot 2026-04-04 183729.png",
+                "original_image_url": "/uploads/Screenshot 2026-04-04 183729.png",
+                "metrics": {
+                    "inference_time_ms": 815
+                }
+            },
+            "responsible_ai": {
+                "safety_flag": true,
+                "safety_message": "Requires Human Review - Low Confidence. Please consult professional medical personnel.",
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775312223.620162",
+        "timestamp": "2026-04-04T19:47:03.621666",
+        "type": "brain_tumor",
+        "prediction": "No Tumor",
+        "confidence": 0.8626,
+        "report": {
+            "diagnosis": "No significant malignant indicators detected (86.3% negative predictive confidence).",
+            "localization": "Normal structural characteristics across all reviewed lobes.",
+            "stage": "N/A",
+            "summary": "\u2022 Prediction: No Tumor\n\u2022 Confidence Score: 86.3%\n\nThe MRI reveals no apparent localized mass, edema, or structural anomaly typically associated with neoplastic growth. The brain tissue appears healthy and within normal boundaries.",
+            "precautions": "Ongoing observation. Discontinue immediate oncological alert statuses. Maintain a healthy lifestyle.",
+            "future_steps": "Standard follow-up in 12 months unless symptomatic. No immediate medical intervention is required.",
+            "hospital_recommendations": "No specific cancer hospitals required. For general checkups, you may visit any top-tier general hospital.",
+            "doctor_recommendations": "Standard consultation with your primary care physician or a general neurologist for routine evaluation."
+        },
+        "files": [
+            "uploads/Screenshot 2026-03-27 212934.png",
+            "uploads/Screenshot 2026-03-27 213114.png"
+        ],
+        "additional_data": {
+            "ml_results": [
+                {
+                    "prediction": "No Tumor",
+                    "confidence": 0.7859,
+                    "heatmap_url": "/static/heatmap_Screenshot 2026-03-27 212934.png",
+                    "original_image_url": "/uploads/Screenshot 2026-03-27 212934.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1057
+                    }
+                },
+                {
+                    "prediction": "No Tumor",
+                    "confidence": 0.8626,
+                    "heatmap_url": "/static/heatmap_Screenshot 2026-03-27 213114.png",
+                    "original_image_url": "/uploads/Screenshot 2026-03-27 213114.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1023
+                    }
+                }
+            ],
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775311972.209404",
+        "timestamp": "2026-04-04T19:42:52.209404",
+        "type": "brain_tumor",
+        "prediction": "Pituitary",
+        "confidence": 0.8017,
+        "report": {
+            "diagnosis": "Primary indication of Pituitary with 80.2% confidence. The model highlights specific functional boundaries with high density.",
+            "localization": "Abnormal hyperintensity suggestive of a mass lesion in the affected lobe region as visualized on the Grad-CAM++ overlay.",
+            "stage": "Observation suggests characteristics of a concerning lesion, requiring histopathological confirmation.",
+            "summary": "\u2022 Prediction: Pituitary\n\u2022 Confidence Score: 80.2%\n\nImaging reveals a mass consistent with the predicted Pituitary. Mass effect and localized edema dynamics are reflected in the generated radiomics analysis. This represents a complex case requiring immediate specialist intervention.",
+            "precautions": "Recommended tight monitoring for increased intracranial pressure. Immediate consultation with neuro-oncology required. Avoid strenuous activities.",
+            "future_steps": "Recommend structural MRI with gadolinium contrast for refined visualization and biopsy planning.",
+            "hospital_recommendations": "1. Tata Memorial Hospital\n2. All India Institute of Medical Sciences (AIIMS)\n3. Christian Medical College (CMC)",
+            "doctor_recommendations": "1. Dr. Rakesh Jalali (Neuro-oncologist)\n2. Dr. B. K. Misra (Neurosurgeon)\n3. Dr. Sandeep Vaishya (Neurosurgery)"
+        },
+        "files": [
+            "uploads/Screenshot 2026-03-27 213114.png"
+        ],
+        "additional_data": {
+            "ml_results": [
+                {
+                    "prediction": "Pituitary",
+                    "confidence": 0.8017,
+                    "heatmap_url": "/static/heatmap_Screenshot 2026-03-27 213114.png",
+                    "original_image_url": "/uploads/Screenshot 2026-03-27 213114.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1050
+                    }
+                }
+            ],
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775311856.780845",
+        "timestamp": "2026-04-04T19:40:56.780845",
+        "type": "breast_cancer",
+        "prediction": "Benign",
+        "confidence": 0.6598,
+        "report": {
+            "diagnosis": "Low likelihood of malignancy. The analysis indicates Benign characteristics.",
+            "localization": "Mammographic density appears within normal limits with no distinct malignant calcifications.",
+            "stage": "N/A - Benign",
+            "summary": "\u2022 Prediction: Benign\n\u2022 Confidence Score: 66.0%\n\nThe analyzed mammogram reveals typical architecture. The model highlights no specific functional boundaries showing malignant high density. Standard screening protocols should be maintained.",
+            "precautions": "Maintain regular annual mammogram screenings. Report any newly discovered physical changes to your physician.",
+            "future_steps": "Standard follow-up in 1-2 years based on age guidelines. No immediate medical intervention is required.",
+            "hospital_recommendations": "No specific oncology center required. Can utilize standard imaging centers for routine checkups.",
+            "doctor_recommendations": "Standard consultation with your primary care physician or gynecologist."
+        },
+        "files": [
+            "uploads/Screenshot 2026-04-04 183729.png"
+        ],
+        "additional_data": {
+            "mammogram": {
+                "prediction": "Benign",
+                "confidence": 0.6598,
+                "heatmap_url": "/static/mammo_heatmap_Screenshot 2026-04-04 183729.png",
+                "original_image_url": "/uploads/Screenshot 2026-04-04 183729.png",
+                "metrics": {
+                    "inference_time_ms": 815
+                }
+            },
+            "responsible_ai": {
+                "safety_flag": true,
+                "safety_message": "Requires Human Review - Low Confidence. Please consult professional medical personnel.",
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775311776.267476",
+        "timestamp": "2026-04-04T19:39:36.267476",
+        "type": "brain_tumor",
+        "prediction": "Meningioma",
+        "confidence": 0.8896,
+        "report": {
+            "diagnosis": "Primary indication of Meningioma with 89.0% confidence. The model highlights specific functional boundaries with high density.",
+            "localization": "Abnormal hyperintensity suggestive of a mass lesion in the affected lobe region as visualized on the Grad-CAM++ overlay.",
+            "stage": "Observation suggests characteristics of a concerning lesion, requiring histopathological confirmation.",
+            "summary": "\u2022 Prediction: Meningioma\n\u2022 Confidence Score: 89.0%\n\nImaging reveals a mass consistent with the predicted Meningioma. Mass effect and localized edema dynamics are reflected in the generated radiomics analysis. This represents a complex case requiring immediate specialist intervention.",
+            "precautions": "Recommended tight monitoring for increased intracranial pressure. Immediate consultation with neuro-oncology required. Avoid strenuous activities.",
+            "future_steps": "Recommend structural MRI with gadolinium contrast for refined visualization and biopsy planning.",
+            "hospital_recommendations": "1. Tata Memorial Hospital\n2. Christian Medical College (CMC)\n3. Apollo Cancer Centre",
+            "doctor_recommendations": "1. Dr. B. K. Misra (Neurosurgeon)\n2. Dr. Rana Patir\n3. Dr. Sandeep Vaishya (Neurosurgery)"
+        },
+        "files": [
+            "uploads/Screenshot 2026-03-27 212934.png",
+            "uploads/Screenshot 2026-03-27 213114.png"
+        ],
+        "additional_data": {
+            "ml_results": [
+                {
+                    "prediction": "Meningioma",
+                    "confidence": 0.8896,
+                    "heatmap_url": "/static/heatmap_Screenshot 2026-03-27 212934.png",
+                    "original_image_url": "/uploads/Screenshot 2026-03-27 212934.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1104
+                    }
+                },
+                {
+                    "prediction": "Glioma",
+                    "confidence": 0.8162,
+                    "heatmap_url": "/static/heatmap_Screenshot 2026-03-27 213114.png",
+                    "original_image_url": "/uploads/Screenshot 2026-03-27 213114.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1055
+                    }
+                }
+            ],
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775310069.72174",
+        "timestamp": "2026-04-04T19:11:09.721740",
+        "type": "brain_tumor",
+        "prediction": "Meningioma",
+        "confidence": 0.815,
+        "report": {
+            "diagnosis": "Primary indication of Meningioma with 81.5% confidence. The model highlights specific functional boundaries with high density.",
+            "localization": "Abnormal hyperintensity suggestive of a mass lesion in the affected lobe region as visualized on the Grad-CAM++ overlay.",
+            "stage": "Observation suggests characteristics of a concerning lesion, requiring histopathological confirmation.",
+            "summary": "\u2022 Prediction: Meningioma\n\u2022 Confidence Score: 81.5%\n\nImaging reveals a mass consistent with the predicted Meningioma. Mass effect and localized edema dynamics are reflected in the generated radiomics analysis. This represents a complex case requiring immediate specialist intervention.",
+            "precautions": "Recommended tight monitoring for increased intracranial pressure. Immediate consultation with neuro-oncology required. Avoid strenuous activities.",
+            "future_steps": "Recommend structural MRI with gadolinium contrast for refined visualization and biopsy planning.",
+            "hospital_recommendations": "1. NIMHANS\n2. Apollo Cancer Centre\n3. Christian Medical College (CMC)",
+            "doctor_recommendations": "1. Dr. Rakesh Jalali (Neuro-oncologist)\n2. Dr. B. K. Misra (Neurosurgeon)\n3. Dr. Sandeep Vaishya (Neurosurgery)"
+        },
+        "files": [
+            "uploads/Screenshot 2026-03-27 213114.png"
+        ],
+        "additional_data": {
+            "ml_results": [
+                {
+                    "prediction": "Meningioma",
+                    "confidence": 0.815,
+                    "heatmap_url": "/static/heatmap_Screenshot 2026-03-27 213114.png",
+                    "original_image_url": "/uploads/Screenshot 2026-03-27 213114.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1101
+                    }
+                }
+            ],
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775309109.233716",
+        "timestamp": "2026-04-04T18:55:09.233716",
+        "type": "brain_tumor",
+        "prediction": "Pituitary",
+        "confidence": 0.9357,
+        "report": {
+            "diagnosis": "Primary indication of Pituitary with 93.6% confidence. The model highlights specific functional boundaries with high density.",
+            "localization": "Abnormal hyperintensity suggestive of a mass lesion in the frontal/parietal lobe region as visualized on the Grad-CAM++ overlay.",
+            "stage": "Observation suggests characteristics of a Grade II/III lesion, requiring histopathological confirmation.",
+            "summary": "Imaging reveals a mass consistent with the predicted Pituitary. Mass effect and localized edema dynamics are reflected in the generated radiomics analysis. This represents a complex case requiring immediate specialist intervention.",
+            "precautions": "Recommended tight monitoring for increased intracranial pressure. Immediate consultation with neuro-oncology required. Avoid strenuous activities.",
+            "future_steps": "Recommend structural MRI with gadolinium contrast for refined visualization and biopsy planning.",
+            "hospital_recommendations": "1. Tata Memorial Hospital\n2. All India Institute of Medical Sciences (AIIMS)\n3. Apollo Cancer Centre",
+            "doctor_recommendations": "1. Dr. Rana Patir\n2. Dr. Rakesh Jalali (Neuro-oncologist)\n3. Dr. B. K. Misra (Neurosurgeon)"
+        },
+        "files": [
+            "uploads/Screenshot 2026-03-27 213114.png"
+        ],
+        "additional_data": {
+            "ml_results": [
+                {
+                    "prediction": "Pituitary",
+                    "confidence": 0.9357,
+                    "heatmap_url": "/static/heatmap_Screenshot 2026-03-27 213114.png",
+                    "original_image_url": "/uploads/Screenshot 2026-03-27 213114.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1182
+                    }
+                }
+            ],
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775308987.119726",
+        "timestamp": "2026-04-04T18:53:07.119726",
+        "type": "breast_cancer",
+        "prediction": "Malignant",
+        "confidence": 0.9373,
+        "report": {
+            "diagnosis": "Primary indication of Malignant with 93.7% confidence. The model highlights specific functional boundaries with high density.",
+            "localization": "Abnormal hyperintensity suggestive of a mass lesion in the frontal/parietal lobe region as visualized on the Grad-CAM++ overlay.",
+            "stage": "Observation suggests characteristics of a Grade II/III lesion, requiring histopathological confirmation.",
+            "summary": "Imaging reveals a mass consistent with the predicted Malignant. Mass effect and localized edema dynamics are reflected in the generated radiomics analysis. This represents a complex case requiring immediate specialist intervention.",
+            "precautions": "Recommended tight monitoring for increased intracranial pressure. Immediate consultation with neuro-oncology required. Avoid strenuous activities.",
+            "future_steps": "Recommend structural MRI with gadolinium contrast for refined visualization and biopsy planning.",
+            "hospital_recommendations": "1. Apollo Cancer Centre\n2. Christian Medical College (CMC)\n3. Tata Memorial Hospital",
+            "doctor_recommendations": "1. Dr. Sandeep Vaishya (Neurosurgery)\n2. Dr. Rakesh Jalali (Neuro-oncologist)\n3. Dr. Rana Patir"
+        },
+        "files": [
+            "uploads/Screenshot 2026-04-04 183729.png"
+        ],
+        "additional_data": {
+            "mammogram": {
+                "prediction": "Malignant",
+                "confidence": 0.9373,
+                "heatmap_url": "/static/mammo_heatmap_Screenshot 2026-04-04 183729.png",
+                "original_image_url": "/uploads/Screenshot 2026-04-04 183729.png",
+                "metrics": {
+                    "inference_time_ms": 941
+                }
+            },
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    },
+    {
+        "id": "1775298672.228244",
+        "timestamp": "2026-04-04T16:01:12.228244",
+        "type": "brain_tumor",
+        "prediction": "Glioma",
+        "confidence": 0.8046,
+        "report": {
+            "diagnosis": "Primary indication of Glioma with 80.5% confidence. The model highlights specific functional boundaries with high density.",
+            "localization": "Abnormal hyperintensity suggestive of a mass lesion in the frontal/parietal lobe region as visualized on the Grad-CAM++ overlay.",
+            "stage": "Observation suggests characteristics of a Grade II/III lesion, requiring histopathological confirmation.",
+            "summary": "Imaging reveals a mass consistent with the predicted Glioma. Mass effect and localized edema dynamics are reflected in the generated radiomics analysis. This represents a complex case requiring immediate specialist intervention.",
+            "precautions": "Recommended tight monitoring for increased intracranial pressure. Immediate consultation with neuro-oncology required. Avoid strenuous activities.",
+            "future_steps": "Recommend structural MRI with gadolinium contrast for refined visualization and biopsy planning.",
+            "hospital_recommendations": "1. Apollo Cancer Centre\n2. Tata Memorial Hospital\n3. NIMHANS",
+            "doctor_recommendations": "1. Dr. Rana Patir\n2. Dr. Sandeep Vaishya (Neurosurgery)\n3. Dr. B. K. Misra (Neurosurgeon)"
+        },
+        "files": [
+            "uploads/Screenshot 2026-03-27 212934.png"
+        ],
+        "additional_data": {
+            "ml_results": [
+                {
+                    "prediction": "Glioma",
+                    "confidence": 0.8046,
+                    "heatmap_url": "/static/heatmap_Screenshot 2026-03-27 212934.png",
+                    "original_image_url": "/uploads/Screenshot 2026-03-27 212934.png",
+                    "processing_metrics": {
+                        "n4_bias_correction": "Success",
+                        "skull_stripping": "Success",
+                        "inference_time_ms": 1098
+                    }
+                }
+            ],
+            "responsible_ai": {
+                "safety_flag": false,
+                "safety_message": null,
+                "disclaimer": "This system is an assistive clinical tool and NOT a replacement for professional medical diagnosis. All predictions should be verified by a qualified healthcare professional."
+            }
+        }
+    }
+]
