@@ -1,3 +1,18 @@
-This project presents an AI-powered healthcare diagnostic system designed to assist in the early detection of Brain Tumors and Breast Cancer using medical imaging and patient data.
+# AI-Based Brain Tumor and Breast Cancer Detection
 
-The system combines deep learning models, multimodal inputs, and Explainable AI (XAI) techniques to provide accurate, transparent, and reliable predictions.
+This project uses Deep Learning to detect Brain Tumors from MRI scans and Breast Cancer from Mammogram images. It also incorporates Grad-CAM (Gradient-weighted Class Activation Mapping) to generate heatmaps that highlight the regions influencing the model's predictions, making the results more interpretable.
+
+## Features
+- Brain Tumor Detection using MRI images
+- Breast Cancer Detection using Mammogram images
+- Explainable AI using Grad-CAM heatmaps
+- Deep Learning-based image classification
+- Image preprocessing and model evaluation
+
+## Technologies Used
+- Python
+- TensorFlow / Keras
+- OpenCV
+- NumPy
+- Matplotlib
+- Grad-CAM
