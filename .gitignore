@@ -1,10 +1,48 @@
-_pycache_
-*.pyc
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.log
-*.tmp
 .env
 venv/
-*.ipynb_checkpoints
-*.csv
+.venv/
+.ipynb_checkpoints/
+
+# -------------------------
+# Uploads & Generated Results
+# -------------------------
+backend/uploads/
+backend/results/
+
+# -------------------------
+# Dataset
+# -------------------------
 data/
-node_modules
+*.csv
+
+# -------------------------
+# Node.js / React
+# -------------------------
+node_modules/
+dist/
+build/
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Temporary Files
+# -------------------------
+*.tmp
+*.bak
